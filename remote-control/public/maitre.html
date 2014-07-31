@@ -1,0 +1,38 @@
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Présentation: application maîtresse</title>
+<link rel="stylesheet" href="css/content.css"/>
+<script src="js/config-local.js"></script>
+<script>
+document.write('<'+'script src="http://'+
+	config.server+
+	'/socket.io/socket.io.js">'+'</'+'script>');
+</script>
+<script src="js/jquery-1.7.2.min.js"></script>
+</head>
+<body>
+<h1>Présentation: application maîtresse</h1>
+<ul id="menu">
+  <li><a href="#slide1">1</a></li>
+  <li><a href="#slide2">2</a></li>
+  <li><a href="#slide3">3</a></li>
+  <li><a href="#slide4">4</a></li>
+  <li><a href="#slide5">5</a></li>
+  <li><a href="#slide6">6</a></li>
+  <li><a href="#slide7">7</a></li>
+  <li><a href="#slide8">8</a></li>
+</ul>
+<div id="slides">
+  <div id="slide1"><img src="images/thumb01.jpg" width="128" height="96"/></div>
+  <div id="slide2"><img src="images/thumb02.jpg" width="128" height="96"/></div>
+  <div id="slide3"><img src="images/thumb03.jpg" width="128" height="96"/></div>
+  <div id="slide4"><img src="images/thumb04.jpg" width="128" height="96"/></div>
+  <div id="slide5"><img src="images/thumb05.jpg" width="128" height="96"/></div>
+  <div id="slide6"><img src="images/thumb06.jpg" width="128" height="96"/></div>
+  <div id="slide7"><img src="images/thumb07.jpg" width="128" height="96"/></div>
+  <div id="slide8"><img src="images/thumb08.jpg" width="128" height="96"/></div>
+</div>
+<script src="js/master.js"></script>
+</body>
+</html>

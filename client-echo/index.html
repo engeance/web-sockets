@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Client écho texte et binaire</title>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+<h1>Client écho texte et binaire</h1>
+<h2>Données textuelles</h2>
+<div>
+  <div id="srcText" class="textspan source" contenteditable="true">Taper du texte ici...</div>
+  <div id="destText" class="textspan destination" contenteditable="true">&nbsp;</div>
+</div>
+<div class="action">
+  <button id="echoText">Echo texte</button>
+</div>
+<h2>Données binaires</h2>
+<div id="canvas-box">
+  <canvas  id="sourceImage" class="bordered"></canvas>
+  <canvas  id="destinationImage" class="bordered"></canvas>
+</div>
+<div class="action">
+  <button id="createImage">Créer image</button>
+  <button id="echoImage">Echo image</button>
+</div>
+<script src="js/echo-text-and-binary.js"></script>
+</body>
+</html>
